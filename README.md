@@ -4,7 +4,6 @@
 + O Map do Java é um objeto que mapeia chaves para valores.
 * Um Map não pode conter chaves duplicadas: cada chave pode mapear no máximo um valor.
 - A plataforma Java possui três implementações gerais de Map: HashMap, TreeMap e LinkedHashMap.
-
 - As operações básicas do Map são: put (inserir ou atualizar), get (obter), containsKey (verificar se contém uma chave), containsValue (verificar se contém um valor), size (obter o tamanho) e isEmpty (verificar se está vazio).
 
 HashTable é uma implementação antiga da interface Map no Java que é sincronizada e thread-safe, tornando-a adequada para uso em ambientes concorrentes. Ela não permite chaves ou valores nulos e os elementos não são mantidos em uma ordem específica.
@@ -29,7 +28,6 @@ Crie uma classe chamada "AgendaContatos" que utilize um Map para armazenar os co
 
 + adicionarContato(String nome, Integer telefone): Adiciona um contato à agenda, associando o nome do contato ao número de telefone correspondente.
 + removerContato(String nome): Remove um contato da agenda, dado o nome do contato.
-
 + exibirContatos(): Exibe todos os contatos da agenda, mostrando o nome e o número de telefone de cada contato.
 + pesquisarPorNome(String nome): Pesquisa um contato pelo nome e retorna o número de telefone correspondente.
 
@@ -39,7 +37,6 @@ Crie uma classe chamada "Dicionario" que utilize um Map para armazenar palavras 
 
 + adicionarPalavra(String palavra, String definicao): Adiciona uma palavra e sua definição ao dicionário, associando a palavra à sua definição correspondente.
 + removerPalavra(String palavra): Remove uma palavra do dicionário, dado o termo a ser removido.
-  
 + exibirPalavras(): Exibe todas as palavras e suas definições do dicionário, mostrando cada palavra seguida de sua respectiva definição.
 + pesquisarPorPalavra(String palavra): Pesquisa uma palavra no dicionário e retorna sua definição correspondente.
 
