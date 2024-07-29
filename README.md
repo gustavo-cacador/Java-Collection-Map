@@ -73,7 +73,7 @@ Crie uma classe chamada "AgendaEventos" que utilize um `Map` para armazenar as d
 
 + adicionarEvento(LocalDate data, String nome, String atracao): Adiciona um evento à agenda.
 + exibirAgenda(): Exibe a agenda de eventos em ordem crescente de data.
-+obterProximoEvento(): Retorna o próximo evento que ocorrerá.
++ obterProximoEvento(): Retorna o próximo evento que ocorrerá.
 
 ### Livraria Online
 
