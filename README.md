@@ -1,18 +1,8 @@
-## Getting Started
+# MAP
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- A interface Map é usada para mapear dados na forma de chaves e valores.
++ O Map do Java é um objeto que mapeia chaves para valores.
+* Um Map não pode conter chaves duplicadas: cada chave pode mapear no máximo um valor.
+- A plataforma Java possui três implementações gerais de Map: HashMap, TreeMap e LinkedHashMap.
+- As operações básicas do Map são: put (inserir ou atualizar), get (obter), containsKey (verificar se contém uma chave), containsValue (verificar se contém um valor), size (obter o tamanho) e isEmpty (verificar se está vazio).
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
