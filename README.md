@@ -4,6 +4,7 @@
 + O Map do Java é um objeto que mapeia chaves para valores.
 * Um Map não pode conter chaves duplicadas: cada chave pode mapear no máximo um valor.
 - A plataforma Java possui três implementações gerais de Map: HashMap, TreeMap e LinkedHashMap.
+
 - As operações básicas do Map são: put (inserir ou atualizar), get (obter), containsKey (verificar se contém uma chave), containsValue (verificar se contém um valor), size (obter o tamanho) e isEmpty (verificar se está vazio).
 
 HashTable é uma implementação antiga da interface Map no Java que é sincronizada e thread-safe, tornando-a adequada para uso em ambientes concorrentes. Ela não permite chaves ou valores nulos e os elementos não são mantidos em uma ordem específica.
